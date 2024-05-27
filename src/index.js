@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react'
 import Constants from 'expo-constants'
 import WeatherInfo from './WeatherInfo'
 
-const API_KEYS = '0f0c95609933a400c1fd64ed12c7e387'
+const API_KEYS = 'Your key'
 
 const Weather = () => {
     const [weatherData, setWeatherData] = useState(null);
