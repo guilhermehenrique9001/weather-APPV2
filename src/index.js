@@ -44,7 +44,7 @@ const Weather = () => {
                     <WeatherInfo weatherData={weatherData} fetchWeatherData={fetchWeatherData} unit={unit} />
                 ) : (
                     <View style={styles.notFoundContainer}>
-                        <Text style={styles.notFoundText}>NOT FOUND</Text>
+                        <Text style={styles.notFoundText}>Não encontrado, tente novamente!</Text>
                         <TouchableOpacity style={styles.button} onPress={() => fetchWeatherData('Fortaleza')}>
                             <Text style={styles.buttonText}>Voltar</Text>
                         </TouchableOpacity>
