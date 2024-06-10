@@ -1,3 +1,3 @@
 "# weatherAPP" 
-"# weatherAPP" 
-"# weather-APPV2" 
+
+bibliotecas usadas foram, expo-constants, expo-vector -icons
